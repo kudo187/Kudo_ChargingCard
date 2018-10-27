@@ -536,7 +536,7 @@
 }
 
 /*Datatable*/
-#example1_wrapper .row,#example2_wrapper .row,#example3_wrapper .row,#example4_wrapper .row {
+#example1_wrapper,#example2_wrapper,#example3_wrapper,#example4_wrapper{
     /* margin-top: 20px; */
     padding: 20px 20px 0px 20px;
 }

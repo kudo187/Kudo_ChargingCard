@@ -126,12 +126,21 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  mounted () {
+    this.$nextTick(() => {
+      $(document).ready(function () {
+        $('#example1').DataTable()
+        $('#example2').DataTable()
+        $('#example3').DataTable()
+        $('#example4').DataTable()
+      })
+    })
+  }
 }
 </script>
 
 <style>
-@import "./assets/client/vendor/datatable/datatables.min.css";
 @import "bootstrap/dist/css/bootstrap.min.css";
 @import "font-awesome/css/font-awesome.min.css";
 @import "./assets/client/styles.css";

@@ -2,6 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import 'datatables.net/js/jquery.dataTables.min.js'
 import router from './router'
 import jQuery from 'jquery'
 global.JQuery = jQuery
